@@ -23,13 +23,16 @@ $data=mysqli_fetch_assoc($run);
 <head>
     <title>Result</title>
 <link rel="stylesheet" href="csss/result.css" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
+<!-- <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet"> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 </head>
 <body>
     <header>
-      <nav>
+      <nav style="font-size: 30px; font: weight 100px;padding-bottom:15px;padding-right:10px;">
         <div class="row clearfix">
             <ul class="main-nav" animate slideInDown>
                 <li><a href="index.php"><b>HOME</b></a></li>
@@ -66,39 +69,39 @@ $data=mysqli_fetch_assoc($run);
           </table>
           <table class="table2">
               <tr>
-               <th>Suject</th><th>Half Yealy Exam (Score) </th><th>Annual Exam (Score)</th><th>Total</th><th>Max. Marks</th>
+               <th>Suject</th><th>CIE</th><th>SEE</th><th>Total</th><th>Max. Marks</th>
               </tr>
               <tr>
                   
-              <th>Hindi</th>
+              <th>OS</th>
                 <th><?php echo $data2['u_hindi1']; ?></th>
                 <th><?php echo $data2['u_hindi2']; ?></th>
                 <th><?php echo $total1=$data2['u_hindi1']+$data2['u_hindi2']; ?> </th>
                 <th>200</th>
               </tr>
               <tr>  
-              <th>English</th>
+              <th>DBMS</th>
                 <th><?php echo $data2['u_english1']; ?></th>
                 <th><?php echo $data2['u_english2']; ?></th>
                 <th><?php echo $total2=$data2['u_english1']+$data2['u_english2']; ?> </th>
                 <th>200</th>
               </tr>
               <tr>
-              <th>Math</th>
+              <th>EM</th>
                   <th><?php echo $data2['u_math1']; ?></th>
                   <th><?php echo $data2['u_math2']; ?></th>
                   <th><?php echo $total3=$data2['u_math1']+$data2['u_math2']; ?> </th>
                   <th>200</th>
               </tr>
               <tr>
-              <th>Physics</th>
+              <th>JAVA</th>
                   <th><?php echo $data2['u_physics1']; ?></th>
                   <th><?php echo $data2['u_physics2']; ?></th>
                   <th><?php echo $total4=$data2['u_physics1']+$data2['u_physics2']; ?></th>
                   <th>200</th>
               </tr>
               <tr>
-              <th>Chemestry</th>
+              <th>WEB</th>
                   <th><?php echo $data2['u_chemestry1']; ?></th>
                   <th><?php echo $data2['u_chemestry']; ?></th>
                   <th><?php echo $total5=$data2['u_chemestry1']+$data2['u_chemestry']; ?></th>
@@ -120,16 +123,16 @@ $data=mysqli_fetch_assoc($run);
               </tr>    
              
           </table>
-             <h1>You Are <span class="colorchange1"><?php 
+             <h2 style="margin-left: 710px; margin-top: 40px;"><span class="colorchange1"><?php 
                         if($all<=500) 
                         {
-                            echo "Fail";
+                            echo "FAIL";
                         }
                        else
                        {
-                           echo"Pass";
+                           echo"PASS";
                        }
-                      ?></span></h1>
+                      ?></span></h2>
             <marquee scrollamount="5"><p>Your Result is Declared. Kindly check your marks and in case of any discrepany contact the admin. </p>
                 </marquee>
        </form>
