@@ -10,7 +10,10 @@ if(isset($_SESSION['uid']))
     <title>Login  here</title>
 
     <link rel="stylesheet" href="csss/login.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Ubuntu+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 </head>

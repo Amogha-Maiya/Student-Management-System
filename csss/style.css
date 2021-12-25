@@ -3,11 +3,12 @@
     padding:0px;
     box-sizing: border-box;
 }
+
 body{
     font-size: 30px;
     overflow-x: hidden;
     color: white;
-    font-family: 'Flamenco', cursive;
+    font-family: 'Patrick Hand', cursive;
 }
 header{
     background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../image/blackboard.jpg);
@@ -17,10 +18,11 @@ header{
 }
 .clearfix:after{
     content: " ";
-    visibility: ;
+    /* visibility: ; */
     display: block;
-    height: 9px;
+    height: 10px;
     clear: both;
+    /* margin-left: 800px; */
 }
 .row{
     max-width: 1180px;
@@ -29,15 +31,16 @@ header{
 
 .main-nav{
     float: right;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .main-nav li{
     display: inline-block;
     list-style: none;
     margin-left: 40px;
+    padding-bottom: 8px;
 }
 .main-nav li a{
-    padding: 5px 2px;
+    padding: 4px 1px;
     color:#fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -45,7 +48,8 @@ header{
     font-weight: 100;
 }
 .main-nav li a:hover{
-    color: yellow;
+    
+    color:hotpink;
     font-weight: 1000;
 }
 
@@ -81,14 +85,18 @@ header{
     height: 5rem;
  }
 .submit{
-    width:85px;
-    padding: 0.5rem;
-    margin-left:50px;
+    width:95px;
+    padding: 0.7rem;
+    margin-left:75px;
+    opacity: 0.75;
 }
 .submit:hover{
+    opacity:1;
     background-color: pink;
     color: black;
 }
 .main-content-header{
     border-top: 2px solid white;
+    margin-bottom:500px;
+    /* margin-left: 325px; */
 }
