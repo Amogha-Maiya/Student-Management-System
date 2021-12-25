@@ -3,25 +3,25 @@
     <title>Contact</title>
 <link rel="stylesheet" href="../csss/contactus.css" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"> -->
 
 </head>
 <body>
     <header>
       <nav>
-        <div class="row clearfix">
+        <div class="row clearfix" >
             <ul class="main-nav" animate slideInDown>
                 <li><a href="../index.php">HOME</a></li>
                 <li><a href="aboutus.php">ABOUT</a></li>
                 <li><a href="contactus.php">CONTACT</a></li>
-                <li><a href="../login.php">ADMIN LOGIN</a></li>
+                <li><a href="../login.php">ADMIN</a></li>
           </ul>
         </div>
       </nav>
       <div class="main-content-header">
         <form method='post'>
           <table class="table">
-              <h2 class="search">How can we help? Feel Free to Contact<br>Send Us a Message</h2>
+              <h2 class="search">Need Help? Feel Free to Contact Us</h2>
              
               <tr>
                 <th class='tblheading'>Enter Your Name</th>

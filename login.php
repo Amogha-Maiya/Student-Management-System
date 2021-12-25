@@ -7,17 +7,17 @@ if(isset($_SESSION['uid']))
 ?>
 <html>
 <head>
-    <title>Login  here</title>
+    <title>Admin Login</title>
 
-    <link rel="stylesheet" href="csss/login.css" type="text/css">
+    <link rel="stylesheet" href="csss/login.css?v=<?php echo time(); ?>">
     <!-- <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet"> -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+<!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
 <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Ubuntu+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"> -->
 
 </head>
-<body>
+<body  background = "scene.jpg" style="background-size: cover;">
     <header>
       <nav>
         <div class="row clearfix">
@@ -31,7 +31,10 @@ if(isset($_SESSION['uid']))
       </nav>
       <div class="login-content-header">
           <form action="login.php" method="post">
-           <h1 class="login_heading">Admin Login</h1>
+           <h1 class="login_heading"></h1>
+           <br>
+           <br>
+           <br>
            <table class="form1">
             <tr>
             <th>Username </th>

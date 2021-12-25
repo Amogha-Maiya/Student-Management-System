@@ -27,7 +27,7 @@ $data=mysqli_fetch_assoc($run);
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"> -->
 
 </head>
 <body>
@@ -38,7 +38,7 @@ $data=mysqli_fetch_assoc($run);
                 <li><a href="index.php"><b>HOME</b></a></li>
                 <li><a href="admin/aboutus.php"><b>ABOUT</b></a></li>
                 <li><a href="admin/contactus.php"><b>CONTACT</b></a></li>
-                <li><a href="login.php"><b>ADMIN LOGIN</b></a></li>
+                <li><a href="login.php"><b>ADMIN</b></a></li>
           </ul>
         </div>
       </nav>
