@@ -17,7 +17,7 @@ header{
 }
 .clearfix:after{
     content: " ";
-    visibility: ;
+    /* visibility: ; */
     display: block;
     height: 9px;
     clear: both;

@@ -18,11 +18,11 @@ header{
 }
 .clearfix:after{
     content: " ";
-    /* visibility: ; */
+    /* visibility: false; */
     display: block;
     height: 8px;
     clear: both;
-    padding-bottom:7px;
+    /* padding-bottom:6px; */
 }
 .row{
     max-width: 1180px;

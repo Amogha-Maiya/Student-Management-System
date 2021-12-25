@@ -1,18 +1,18 @@
 <html>
 <head>
     <title>About</title>
-<link rel="stylesheet" href="../csss/aboutus.css" type="text/css">
+<link rel="stylesheet" href="../csss/aboutus.css?v=<?php echo time(); ?>"" type="text/css">
 <!-- <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet"> -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"> -->
 
 </head>
-<body>
+<body background = "write.jpg" style="background-size: cover;">
     <header>
       <nav>
-        <div class="row clearfix">
+        <div class="row clearfix" >
             <ul class="main-nav" animate slideInDown>
                 <li><a href="../index.php">HOME</a></li>
                 <li><a href="aboutus.php">ABOUT</a></li>
@@ -22,9 +22,9 @@
         </div>
       </nav>
       <div class="main-content-header">
-          <h2 class="search">About Us</h2>
+          <h2 class="search" style="color: cyan">Student Management System</h2>
              <div class="div2">
-             <h3>Student Management System</h2>
+             
              <p>Student Management System is software which is helpful for students as
                 well as the school authorities.
                  In the current system all the activities are done manually. 
