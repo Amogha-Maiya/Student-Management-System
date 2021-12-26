@@ -6,7 +6,7 @@
 body{
     font-size: 30px;
     overflow-x: hidden;
-    color: white;
+    color: ff0066;
     font-family: 'Flamenco', cursive;
 }
 header{
@@ -17,10 +17,11 @@ header{
 }
 .clearfix:after{
     content: " ";
-    visibility: ;
+    /* visibility: ; */
     display: block;
     height: 9px;
     clear: both;
+    /* margin-left: 700px; */
 }
 .row{
     max-width: 1180px;
@@ -38,6 +39,7 @@ header{
 }
 .main-nav li a{
     padding: 5px 2px;
+    /* margin-left: 100px; */
     color:#fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -45,12 +47,12 @@ header{
     font-weight: 100;
 }
 .main-nav li a:hover{
-    color: yellow;
+    color: rgb(255, 17, 0);
     font-weight: 1000;
 }
 h1{
-    margin-left: 430px;
-    margin-top: 30px;
+    margin-left: 650px;
+    margin-top: 150px;
     margin-bottom: 20px;
     text-shadow:  #000 0px 0px 3px,   #000 0px 0px 3px,   #000 0px 0px 5px;
 }
@@ -65,13 +67,14 @@ h3{
 
 .main-content-header a{
     text-decoration: none;
-    color: black;   
+    color: black; 
+    font-size: larger;  
     text-shadow:  #ff0066 0px 0px 1px,   #ff0066 0px 0px 1px,   #ff0066 0px 0px 1px;
 }
 .main-content-header a:hover{
     text-decoration: none;
     text-decoration: none;
-    color: yellow;   
+    color: #ffffff;   
     text-shadow:  #000 0px 0px 2px,   #000 0px 0px 2px,   #000 0px 0px 2px;
 
 }
