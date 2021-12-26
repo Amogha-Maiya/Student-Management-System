@@ -6,7 +6,7 @@
 <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"> -->
 
 </head>
-<body>
+<body  background = "contact.jpg" style="background-size: cover;">
     <header>
       <nav>
         <div class="row clearfix" >
@@ -42,7 +42,7 @@
                 <td class='tbldata'><input type='text' class='tbldata' name='cont' placeholder='Contact No' Required/></td>
               </tr>
               <tr>
-                <th class='tblheading'>Type your Message</th>
+                <th class='tblheading'>Message Body</th>
               </tr>
               <tr>
                 <td ><textarea class='tbldata1' name="massage" placeholder='Type here...'></textarea></td>
