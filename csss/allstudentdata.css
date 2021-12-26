@@ -10,14 +10,14 @@ body{
     font-family: 'Flamenco', cursive;
 }
 header{
-    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../image/plane.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../image/working.jpg);
     height:800px;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .clearfix:after{
     content: " ";
-    visibility: ;
+    /* visibility: ; */
     display: block;
     height: 9px;
     clear: both;
@@ -45,7 +45,7 @@ header{
     font-weight: 100;
 }
 .main-nav li a:hover{
-    color: yellow;
+    color: red;
     font-weight: 1000;
 }
 h3{
@@ -58,16 +58,16 @@ h3{
 
 h2{
     font-size: 3rem;
-    color: #cc0099;
+    color: crimson;
     font-weight: 900;
-    padding-left: 5rem;
-    padding-top: 1rem;
+    padding-left: 40%;
+    padding-top: 5rem;
     text-shadow: 2px 2px black;
 }
 /*table Heading*/
 table{
     margin-top:25px;
-    margin-left: 50px;
+    margin-left: 150px;
     background-color: white;
    
 }
