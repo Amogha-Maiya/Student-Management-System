@@ -10,14 +10,14 @@ body{
     font-family: 'Flamenco', cursive;
 }
 header{
-    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../image/hand.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../image/working.jpg);
     height:100vh;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .clearfix:after{
     content: " ";
-    visibility: ;
+    /* visibility: ; */
     display: block;
     height: 9px;
     clear: both;
@@ -44,7 +44,7 @@ header{
     font-weight: 100;
 }
 .main-nav li a:hover{
-    color: yellow;
+    color: red;
     font-weight: 1000;
 }
 
@@ -71,7 +71,7 @@ header{
 h2{
     margin-top: 55px;
     margin-left: 60px;
-    color: yellow;
+    color: white;
     font-weight: bolder;
     text-shadow: 3px 3px black;
 }
