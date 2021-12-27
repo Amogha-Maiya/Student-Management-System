@@ -7,7 +7,8 @@ body{
     font-size: 30px;
     overflow-x: hidden;
     color: white;
-    font-family: 'Flamenco', cursive;
+    /* font-family: 'Flamenco', cursive; */
+    font-family: 'Ubuntu Mono', monospace;
 }
 header{
     background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(../image/working.jpg);
@@ -59,7 +60,7 @@ h3{
 /*table Heading*/
 table{
     margin-top:125px;
-    margin-left: 17%;
+    margin-left: 10%;
     background-color: white;
 }
 .massage_h1{
