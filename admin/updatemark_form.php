@@ -87,12 +87,12 @@ $data = mysqli_fetch_assoc($run2);
             </tr>
             <tr>
               <td>
-                <input type='text' name='hindi1' value="<?php echo $data['u_hindi1']; ?>" class="th" required />
+                <input type='text' name='os1' value="<?php echo $data['u_os1']; ?>" class="th" required />
               </td>
-              <td><input type='text' name='english1' value="<?php echo $data['u_english1']; ?>" class="th" /></td>
-              <td><input type='text' name='math1' value="<?php echo $data['u_math1']; ?> " class="th" required /></td>
-              <td><input type='text' name='physics1' value="<?php echo $data['u_physics1']; ?> " class="th" required /></td>
-              <td><input type='text' name='chemestry1' value="<?php echo $data['u_chemestry1']; ?> " class="th" required /></td>
+              <td><input type='text' name='dbms1' value="<?php echo $data['u_dbms1']; ?>" class="th" /></td>
+              <td><input type='text' name='em1' value="<?php echo $data['u_em1']; ?> " class="th" required /></td>
+              <td><input type='text' name='java1' value="<?php echo $data['u_java1']; ?> " class="th" required /></td>
+              <td><input type='text' name='web1' value="<?php echo $data['u_web1']; ?> " class="th" required /></td>
 
             </tr>
           </table>
@@ -109,11 +109,11 @@ $data = mysqli_fetch_assoc($run2);
               <th>WEB</th>
             </tr>
             <tr>
-              <td><input type='text' name='hindi2' value="<?php echo $data['u_hindi2']; ?> " class="th" required /></td>
-              <td><input type='text' name='english2' value="<?php echo $data['u_english2']; ?> " class="th" required /></td>
-              <td><input type='text' name='math2' value="<?php echo $data['u_math2']; ?> " class="th" required /></td>
-              <td><input type='text' name='physics2' value="<?php echo $data['u_physics2']; ?> " class="th" required /></td>
-              <td><input type='text' name='chemestry2' value="<?php echo $data['u_chemestry']; ?> " class="th" required /></td>
+              <td><input type='text' name='os2' value="<?php echo $data['u_os2']; ?> " class="th" required /></td>
+              <td><input type='text' name='dbms2' value="<?php echo $data['u_dbms2']; ?> " class="th" required /></td>
+              <td><input type='text' name='em2' value="<?php echo $data['u_em2']; ?> " class="th" required /></td>
+              <td><input type='text' name='java2' value="<?php echo $data['u_java2']; ?> " class="th" required /></td>
+              <td><input type='text' name='web' value="<?php echo $data['u_web']; ?> " class="th" required /></td>
             </tr>
           </table>
           <table class="table2">

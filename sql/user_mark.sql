@@ -25,16 +25,16 @@ CREATE TABLE `user_mark` (
   `id` int(11) NOT NULL,
   `u_rollno` int(2) NOT NULL,
   `u_class` int(2) NOT NULL,
-  `u_hindi1` int(2) NOT NULL,
-  `u_english1` int(2) NOT NULL,
-  `u_math1` int(2) NOT NULL,
-  `u_physics1` int(2) NOT NULL,
-  `u_chemestry1` int(2) NOT NULL,
-  `u_hindi2` int(2) NOT NULL,
-  `u_english2` int(2) NOT NULL,
-  `u_math2` int(2) NOT NULL,
-  `u_physics2` int(2) NOT NULL,
-  `u_chemestry` int(2) NOT NULL
+  `u_os1` int(2) NOT NULL,
+  `u_dbms1` int(2) NOT NULL,
+  `u_em1` int(2) NOT NULL,
+  `u_java1` int(2) NOT NULL,
+  `u_web1` int(2) NOT NULL,
+  `u_os2` int(2) NOT NULL,
+  `u_dbms2` int(2) NOT NULL,
+  `u_em2` int(2) NOT NULL,
+  `u_java2` int(2) NOT NULL,
+  `u_web` int(2) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --

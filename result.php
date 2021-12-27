@@ -78,46 +78,46 @@ if (isset($_POST['submit'])) {
                             <tr>
 
                                 <th>OS</th>
-                                <th><?php echo $data2['u_hindi1']; ?></th>
-                                <th><?php echo $data2['u_hindi2']; ?></th>
-                                <th><?php echo $total1 = $data2['u_hindi1'] + $data2['u_hindi2']; ?> </th>
+                                <th><?php echo $data2['u_os1']; ?></th>
+                                <th><?php echo $data2['u_os2']; ?></th>
+                                <th><?php echo $total1 = $data2['u_os1'] + $data2['u_os2']; ?> </th>
                                 <th>100</th>
                             </tr>
                             <tr>
                                 <th>DBMS</th>
-                                <th><?php echo $data2['u_english1']; ?></th>
-                                <th><?php echo $data2['u_english2']; ?></th>
-                                <th><?php echo $total2 = $data2['u_english1'] + $data2['u_english2']; ?> </th>
+                                <th><?php echo $data2['u_dbms1']; ?></th>
+                                <th><?php echo $data2['u_dbms2']; ?></th>
+                                <th><?php echo $total2 = $data2['u_dbms1'] + $data2['u_dbms2']; ?> </th>
                                 <th>100</th>
                             </tr>
                             <tr>
                                 <th>EM</th>
-                                <th><?php echo $data2['u_math1']; ?></th>
-                                <th><?php echo $data2['u_math2']; ?></th>
-                                <th><?php echo $total3 = $data2['u_math1'] + $data2['u_math2']; ?> </th>
+                                <th><?php echo $data2['u_em1']; ?></th>
+                                <th><?php echo $data2['u_em2']; ?></th>
+                                <th><?php echo $total3 = $data2['u_em1'] + $data2['u_em2']; ?> </th>
                                 <th>100</th>
                             </tr>
                             <tr>
                                 <th>JAVA</th>
-                                <th><?php echo $data2['u_physics1']; ?></th>
-                                <th><?php echo $data2['u_physics2']; ?></th>
-                                <th><?php echo $total4 = $data2['u_physics1'] + $data2['u_physics2']; ?></th>
+                                <th><?php echo $data2['u_java1']; ?></th>
+                                <th><?php echo $data2['u_java2']; ?></th>
+                                <th><?php echo $total4 = $data2['u_java1'] + $data2['u_java2']; ?></th>
                                 <th>100</th>
                             </tr>
                             <tr>
                                 <th>WEB</th>
-                                <th><?php echo $data2['u_chemestry1']; ?></th>
-                                <th><?php echo $data2['u_chemestry']; ?></th>
-                                <th><?php echo $total5 = $data2['u_chemestry1'] + $data2['u_chemestry']; ?></th>
+                                <th><?php echo $data2['u_web1']; ?></th>
+                                <th><?php echo $data2['u_web']; ?></th>
+                                <th><?php echo $total5 = $data2['u_web1'] + $data2['u_web']; ?></th>
                                 <th>100</th>
                             </tr>
                             <tr>
                                 <th>Total</th>
                                 <th>
-                                    <?php echo $data2['u_hindi1'] + $data2['u_english1'] + $data2['u_math1'] + $data2['u_physics1'] + $data2['u_chemestry1']; ?>
+                                    <?php echo $data2['u_os1'] + $data2['u_dbms1'] + $data2['u_em1'] + $data2['u_java1'] + $data2['u_web1']; ?>
                                 </th>
                                 <th>
-                                    <?php echo $data2['u_hindi2'] + $data2['u_english2'] + $data2['u_math2'] + $data2['u_physics2'] + $data2['u_chemestry']; ?>
+                                    <?php echo $data2['u_os2'] + $data2['u_dbms2'] + $data2['u_em2'] + $data2['u_java2'] + $data2['u_web']; ?>
                                 </th>
 
                                 <th><span class="colorchange"><?php echo $all = $total1 + $total2 + $total3 + $total3 + $total4 + $total5; ?></span></th>
@@ -128,7 +128,7 @@ if (isset($_POST['submit'])) {
 
                         </table>
                         <h2 style="margin-left: 710px; margin-top: 40px;"><span class="colorchange1"><?php
-                                                                                                        if ($data2['u_hindi1'] < 20 || $data2['u_hindi2'] < 20 || $data2['u_english1'] < 20 || $data2['u_english2'] < 20 || $data2['u_math1'] < 20 || $data2['u_math2'] < 20 || $data2['u_physics1'] < 20 || $data2['u_physics2'] < 20 || $data2['u_chemestry1'] < 20 || $data2['u_chemestry'] < 20) {
+                                                                                                        if ($data2['u_os1'] < 20 || $data2['u_os2'] < 20 || $data2['u_dbms1'] < 20 || $data2['u_dbms2'] < 20 || $data2['u_em1'] < 20 || $data2['u_em2'] < 20 || $data2['u_java1'] < 20 || $data2['u_java2'] < 20 || $data2['u_web1'] < 20 || $data2['u_web'] < 20) {
                                                                                                             echo "FAIL";
                                                                                                         } else {
                                                                                                             echo "PASS";

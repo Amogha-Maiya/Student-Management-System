@@ -53,11 +53,11 @@ if (isset($_SESSION['uid'])) {
                         <th>WEB</th>
                     </tr>
                     <tr>
-                        <td><input type='text' name='hindi1' placeholder='OS' required /></td>
-                        <td><input type='text' name='english1' placeholder='DBMS' required /></td>
-                        <td><input type='text' name='math1' placeholder='EM' required /></td>
-                        <td><input type='text' name='physics1' placeholder='JAVA' required /></td>
-                        <td><input type='text' name='chemestry1' placeholder='WEB' required /></td>
+                        <td><input type='text' name='os1' placeholder='OS' required /></td>
+                        <td><input type='text' name='dbms1' placeholder='DBMS' required /></td>
+                        <td><input type='text' name='em1' placeholder='EM' required /></td>
+                        <td><input type='text' name='java1' placeholder='JAVA' required /></td>
+                        <td><input type='text' name='web1' placeholder='WEB' required /></td>
                     </tr>
                 </table>
 
@@ -73,11 +73,11 @@ if (isset($_SESSION['uid'])) {
                         <th>WEB</th>
                     </tr>
                     <tr>
-                        <td><input type='text' name='hindi2' placeholder='OS' required /></td>
-                        <td><input type='text' name='english2' placeholder='DBMS' required /></td>
-                        <td><input type='text' name='math2' placeholder='EM' required /></td>
-                        <td><input type='text' name='physics2' placeholder='JAVA' required /></td>
-                        <td><input type='text' name='chemestry2' placeholder='WEB' required /></td>
+                        <td><input type='text' name='os2' placeholder='OS' required /></td>
+                        <td><input type='text' name='dbms2' placeholder='DBMS' required /></td>
+                        <td><input type='text' name='em2' placeholder='EM' required /></td>
+                        <td><input type='text' name='java2' placeholder='JAVA' required /></td>
+                        <td><input type='text' name='web' placeholder='WEB' required /></td>
                     </tr>
 
                     <tr>
@@ -114,7 +114,7 @@ if (isset($_POST['submit1'])) {
     if ($run) {
 ?>
         <script>
-            alert('1step Complete and this is second  Step');
+            alert('data inserted successfully');
         </script>
     <?php
     } else {
