@@ -20,7 +20,7 @@ if (isset($_POST['submit'])) {
 
         <head>
             <title>Result</title>
-            <link rel="stylesheet" href="csss/result.css" type="text/css">
+            <link rel="stylesheet" href="css/result.css" type="text/css">
             <!-- <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet"> -->
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

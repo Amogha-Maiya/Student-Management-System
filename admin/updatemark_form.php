@@ -31,7 +31,7 @@ $data = mysqli_fetch_assoc($run2);
 
 <head>
   <title>Update Mark Detail</title>
-  <link rel="stylesheet" href="../csss/updatemark_form.css" type="text/css">
+  <link rel="stylesheet" href="../css/updatemark_form.css" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"> -->
 

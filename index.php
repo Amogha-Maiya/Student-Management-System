@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Student Management System</title>
-<link rel="stylesheet" href="csss/style.css" type="text/css">
+<link rel="stylesheet" href="css/style.css" type="text/css">
 <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Ubuntu+Mono&display=swap" rel="stylesheet">
 </head>
 <body>

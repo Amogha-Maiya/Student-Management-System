@@ -12,7 +12,7 @@ if (isset($_SESSION['uid'])) {
 
 <head>
   <title>Student Details</title>
-  <link rel="stylesheet" href="../csss/allstudentdata.css" type="text/css">
+  <link rel="stylesheet" href="../css/allstudentdata.css" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 

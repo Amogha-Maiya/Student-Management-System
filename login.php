@@ -9,7 +9,7 @@ if(isset($_SESSION['uid']))
 <head>
     <title>Admin Login</title>
 
-    <link rel="stylesheet" href="csss/login.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="css/login.css?v=<?php echo time(); ?>">
     <!-- <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet"> -->
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
 <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->

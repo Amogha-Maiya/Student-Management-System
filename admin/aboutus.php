@@ -1,7 +1,7 @@
 <html>
 <head>
     <title>About</title>
-<link rel="stylesheet" href="../csss/aboutus.css?v=<?php echo time(); ?>"" type="text/css">
+<link rel="stylesheet" href="../css/aboutus.css?v=<?php echo time(); ?>"" type="text/css">
 <!-- <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet"> -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
