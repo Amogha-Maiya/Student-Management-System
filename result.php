@@ -1,4 +1,5 @@
 <?php
+session_start();
 if (isset($_POST['submit'])) {
 
     include('dbcon.php');
@@ -42,100 +43,37 @@ if (isset($_POST['submit'])) {
                     </div>
                 </nav>
                 <div class="main-content-header">
-                    <form method="post" action="result.php">
-                        <table class="table">
+                    <form method="post" action="result2.php">
+                        <table class="table" style="margin-top: 140px;">
                             <!-- <img src="dataimg/ <?php // echo $data['u_image']; 
                                                     ?>" class="image2" />  -->
                             <tr>
-                                <th>Name :</th>
-                                <td><?php echo $data['u_name'] ?></td>
+                                <th style="font-size:28px;">Name :</th>
+                                <td style="font-size:28px;"><?php echo $data['u_name'] ?></td>
                             </tr>
                             <tr>
-                                <th>Class :</th>
-                                <td><?php echo $data2['u_class']; ?></td>
+                                <th style="font-size:28px;">Class :</th>
+                                <td style="font-size:28px;"><?php echo $data2['u_class']; ?></td>
                             </tr>
                             <tr>
-                                <th>Roll No :</th>
-                                <td><?php echo $data['u_rollno']; ?></td>
+                                <th style="font-size:28px;">Roll No :</th>
+                                <td style="font-size:28px;"><?php echo $data['u_rollno']; ?></td>
                             </tr>
                             <tr>
-                                <th>Father Name :</th>
-                                <td><?php echo $data['u_father']; ?></td>
+                                <th style="font-size:28px;">Father Name :</th>
+                                <td style="font-size:28px;"><?php echo $data['u_father']; ?></td>
                             </tr>
                             <tr>
-                                <th>City Name :</th>
-                                <td><?php echo $data['u_village']; ?></td>
+                                <th style="font-size:28px;">City Name :</th>
+                                <td style="font-size: 28px;"><?php echo $data['u_village']; ?></td>
                             </tr>
                         </table>
-                        <table class="table2">
-                            <tr>
-                                <th>Suject</th>
-                                <th>CIE</th>
-                                <th>SEE</th>
-                                <th>Total</th>
-                                <th>Max. Marks</th>
-                            </tr>
-                            <tr>
+                        <?php
+                        $_SESSION['usn'] = $data['u_rollno'];
+                        $_SESSION['std'] = $data2['u_class'];
+                        ?>
+                        <input style="margin-left: 740px; margin-top: 40px; padding:5px;" type="submit" name="submit" value="view result">
 
-                                <th>OS</th>
-                                <th><?php echo $data2['u_os1']; ?></th>
-                                <th><?php echo $data2['u_os2']; ?></th>
-                                <th><?php echo $total1 = $data2['u_os1'] + $data2['u_os2']; ?> </th>
-                                <th>100</th>
-                            </tr>
-                            <tr>
-                                <th>DBMS</th>
-                                <th><?php echo $data2['u_dbms1']; ?></th>
-                                <th><?php echo $data2['u_dbms2']; ?></th>
-                                <th><?php echo $total2 = $data2['u_dbms1'] + $data2['u_dbms2']; ?> </th>
-                                <th>100</th>
-                            </tr>
-                            <tr>
-                                <th>EM</th>
-                                <th><?php echo $data2['u_em1']; ?></th>
-                                <th><?php echo $data2['u_em2']; ?></th>
-                                <th><?php echo $total3 = $data2['u_em1'] + $data2['u_em2']; ?> </th>
-                                <th>100</th>
-                            </tr>
-                            <tr>
-                                <th>JAVA</th>
-                                <th><?php echo $data2['u_java1']; ?></th>
-                                <th><?php echo $data2['u_java2']; ?></th>
-                                <th><?php echo $total4 = $data2['u_java1'] + $data2['u_java2']; ?></th>
-                                <th>100</th>
-                            </tr>
-                            <tr>
-                                <th>WEB</th>
-                                <th><?php echo $data2['u_web1']; ?></th>
-                                <th><?php echo $data2['u_web']; ?></th>
-                                <th><?php echo $total5 = $data2['u_web1'] + $data2['u_web']; ?></th>
-                                <th>100</th>
-                            </tr>
-                            <tr>
-                                <th>Total</th>
-                                <th>
-                                    <?php echo $data2['u_os1'] + $data2['u_dbms1'] + $data2['u_em1'] + $data2['u_java1'] + $data2['u_web1']; ?>
-                                </th>
-                                <th>
-                                    <?php echo $data2['u_os2'] + $data2['u_dbms2'] + $data2['u_em2'] + $data2['u_java2'] + $data2['u_web']; ?>
-                                </th>
-
-                                <th><span class="colorchange"><?php echo $all = $total1 + $total2 + $total3 + $total3 + $total4 + $total5; ?></span></th>
-
-                                <th>500</th>
-
-                            </tr>
-
-                        </table>
-                        <h2 style="margin-left: 710px; margin-top: 40px;"><span class="colorchange1"><?php
-                                                                                                        if ($data2['u_os1'] < 20 || $data2['u_os2'] < 20 || $data2['u_dbms1'] < 20 || $data2['u_dbms2'] < 20 || $data2['u_em1'] < 20 || $data2['u_em2'] < 20 || $data2['u_java1'] < 20 || $data2['u_java2'] < 20 || $data2['u_web1'] < 20 || $data2['u_web'] < 20) {
-                                                                                                            echo "FAIL";
-                                                                                                        } else {
-                                                                                                            echo "PASS";
-                                                                                                        }
-                                                                                                        ?></span></h2>
-                        <!-- <marquee scrollamount="5"><p>Your Result is Declared. Kindly check your marks and in case of any discrepany contact the admin. </p> -->
-                        </marquee>
                     </form>
                 </div>
             </header>
